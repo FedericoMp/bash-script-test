@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# message for commit
+read -r -p 'Commit msg: ' desc
+
+# stage all files
+git add .
+
+# stage deleted files 
+git add -u
+
+# commit with message
+git commit -m "$desc"
