@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # message for commit
-read -r -p 'Commit msg: ' desc
+read -p 'Commit msg: ' desc
 
 # stage all files
 git add .
